@@ -1,0 +1,1 @@
+# mycamp_strapi
