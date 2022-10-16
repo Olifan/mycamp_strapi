@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "seasons",
+  "info": {
+    "singularName": "season",
+    "pluralName": "seasons",
+    "displayName": "Season",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "schedule": {
+      "displayName": "content",
+      "type": "component",
+      "repeatable": false,
+      "component": "content.content"
+    },
+    "location": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.content"
+    },
+    "price": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.content"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.content"
+    },
+    "shifts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::shift.shift",
+      "mappedBy": "season"
+    }
+  }
+}

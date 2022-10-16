@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_content_palaroid_photos",
+  "info": {
+    "displayName": "PalaroidPhoto",
+    "icon": "file-image"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
