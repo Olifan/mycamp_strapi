@@ -15,27 +15,6 @@
     "title": {
       "type": "string"
     },
-    "schedule": {
-      "displayName": "content",
-      "type": "component",
-      "repeatable": false,
-      "component": "content.content"
-    },
-    "location": {
-      "type": "component",
-      "repeatable": false,
-      "component": "content.content"
-    },
-    "price": {
-      "type": "component",
-      "repeatable": false,
-      "component": "content.content"
-    },
-    "services": {
-      "type": "component",
-      "repeatable": false,
-      "component": "content.content"
-    },
     "shifts": {
       "type": "relation",
       "relation": "oneToMany",
