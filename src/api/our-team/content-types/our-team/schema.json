@@ -12,15 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "teamMember": {
-      "type": "component",
-      "repeatable": false,
-      "component": "content.team-member"
-    },
-    "teamMember2": {
-      "type": "component",
-      "repeatable": false,
-      "component": "content.team-member"
+    "team_members": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::team-member.team-member"
     }
   }
 }
