@@ -15,12 +15,6 @@
     "title": {
       "type": "string"
     },
-    "startDate": {
-      "type": "date"
-    },
-    "endDate": {
-      "type": "date"
-    },
     "description": {
       "type": "richtext"
     },
@@ -51,6 +45,18 @@
       "relation": "manyToOne",
       "target": "api::season.season",
       "inversedBy": "shifts"
+    },
+    "startDate": {
+      "type": "string"
+    },
+    "endDate": {
+      "type": "string"
+    },
+    "requests": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::request.request",
+      "mappedBy": "shift"
     }
   }
 }
