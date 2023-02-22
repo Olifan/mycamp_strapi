@@ -57,6 +57,11 @@
       "relation": "oneToMany",
       "target": "api::request.request",
       "mappedBy": "shift"
+    },
+    "shiftTab": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.shift-tab"
     }
   }
 }

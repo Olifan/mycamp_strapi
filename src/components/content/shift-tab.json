@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_content_shift_tabs",
+  "info": {
+    "displayName": "ShiftTab",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
