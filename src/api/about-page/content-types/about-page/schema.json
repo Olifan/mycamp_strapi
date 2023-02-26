@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "AboutPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "OurMission": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.card-with-text"
+    },
+    "AboutCamp": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.card-with-text"
+    },
+    "MedicalCare": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.card-with-text"
+    },
+    "RestWithUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.card-with-text"
+    },
+    "OurMissionPhoto": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.palaroid-photo"
+    },
+    "AboutCampPhoto": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.palaroid-photo"
+    },
+    "MedicalCarePhoto": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.palaroid-photo"
+    },
+    "RestWithUsPhoto": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.palaroid-photo"
+    },
+    "Questions": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.card-with-text"
+    }
+  }
+}

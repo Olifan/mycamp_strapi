@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "things_pages",
+  "info": {
+    "singularName": "things-page",
+    "pluralName": "things-pages",
+    "displayName": "ThingsPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "importantNote": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.card-with-text"
+    },
+    "leftNotePhoto": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.palaroid-photo"
+    },
+    "rightNotePhoto": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.palaroid-photo"
+    },
+    "thing_to_takes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::thing-to-take.thing-to-take"
+    },
+    "thing_not_takes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::thing-not-take.thing-not-take"
+    }
+  }
+}
