@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "photo_pages",
+  "info": {
+    "singularName": "photo-page",
+    "pluralName": "photo-pages",
+    "displayName": "PhotoPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "photo_albums": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::photo-album.photo-album"
+    }
+  }
+}
