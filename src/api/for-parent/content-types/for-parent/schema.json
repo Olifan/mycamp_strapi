@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "for_parents",
+  "info": {
+    "singularName": "for-parent",
+    "pluralName": "for-parents",
+    "displayName": "ForParent",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

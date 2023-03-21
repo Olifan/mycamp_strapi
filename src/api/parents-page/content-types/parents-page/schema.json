@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "parents_pages",
+  "info": {
+    "singularName": "parents-page",
+    "pluralName": "parents-pages",
+    "displayName": "ParentsPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "for_parents": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::for-parent.for-parent"
+    }
+  }
+}
