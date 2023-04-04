@@ -37,39 +37,6 @@
         "audios"
       ]
     },
-    "territoryCover": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "foodCover": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "roomsCover": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "roomsPhoto": {
       "type": "media",
       "multiple": true,
@@ -95,6 +62,21 @@
       "type": "component",
       "repeatable": false,
       "component": "content.card-with-text"
+    },
+    "territoryPalaroid": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.palaroid-photo"
+    },
+    "roomsPalaroid": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.palaroid-photo"
+    },
+    "foodPalaroid": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.palaroid-photo"
     }
   }
 }
