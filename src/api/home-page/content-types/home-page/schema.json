@@ -45,6 +45,16 @@
         }
       },
       "component": "content.palaroid-photo"
+    },
+    "registration": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "content.registration"
     }
   }
 }

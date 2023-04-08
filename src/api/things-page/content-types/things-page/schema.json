@@ -36,6 +36,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::thing-not-take.thing-not-take"
+    },
+    "pageTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.page-title"
     }
   }
 }

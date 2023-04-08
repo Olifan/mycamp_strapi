@@ -4,7 +4,8 @@
   "info": {
     "singularName": "registration-page",
     "pluralName": "registration-pages",
-    "displayName": "RegistrationPage"
+    "displayName": "RegistrationPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::shift.shift"
+    },
+    "pageTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.page-title"
     }
   }
 }

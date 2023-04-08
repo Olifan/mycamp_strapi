@@ -16,6 +16,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::team-member.team-member"
+    },
+    "pageTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.page-title"
     }
   }
 }

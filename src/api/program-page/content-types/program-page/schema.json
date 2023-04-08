@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "program_pages",
+  "info": {
+    "singularName": "program-page",
+    "pluralName": "program-pages",
+    "displayName": "ProgramPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.page-title"
+    },
+    "camp_programs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::camp-program.camp-program"
+    }
+  }
+}

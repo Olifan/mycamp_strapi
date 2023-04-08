@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_content_registrations",
+  "info": {
+    "displayName": "Registration",
+    "icon": "registered"
+  },
+  "options": {},
+  "attributes": {
+    "registrationDate": {
+      "type": "string"
+    },
+    "registrationSeason": {
+      "type": "string"
+    },
+    "registrationOpen": {
+      "type": "string"
+    }
+  }
+}

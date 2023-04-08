@@ -56,6 +56,11 @@
       "type": "component",
       "repeatable": false,
       "component": "content.card-with-text"
+    },
+    "pageTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.page-title"
     }
   }
 }

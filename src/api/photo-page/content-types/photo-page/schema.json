@@ -16,6 +16,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::photo-album.photo-album"
+    },
+    "pageTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.page-title"
     }
   }
 }

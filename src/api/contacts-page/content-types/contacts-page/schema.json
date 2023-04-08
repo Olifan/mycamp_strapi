@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contacts-page",
     "pluralName": "contacts-pages",
-    "displayName": "ContactsPage"
+    "displayName": "ContactsPage",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,6 +21,11 @@
       "type": "component",
       "repeatable": false,
       "component": "content.card-with-text"
+    },
+    "pageTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "content.page-title"
     }
   }
 }
